@@ -43,27 +43,27 @@ const Footer = () => {
                     backgroundClip: "text",
                   }}
                 >
-                  Asif Shabbir
+                  Ehtesham Ali
                 </span>
               </h3>
               <p className="text-light mb-4 lh-lg">
-                Senior React.js/Next.js and Node.js Developer with 6+ years of experience. Currently working as Senior
-                MERN Stack Developer at UPTREE TECHNOLOGIES LTD, London.
+                Senior React.js/Next.js and Node.js Developer with 4+ years of experience. Currently working as Senior
+                MERN Stack Developer at SolutionWIngs.io LTD, Islamabad.
               </p>
               <div className="d-flex align-items-center mb-3 text-light">
                 <UilMapMarker size="20" className="text-primary me-2" />
-                <span>London, United Kingdom</span>
+                <span>Islamabad, Pakistan</span>
               </div>
               <div className="d-flex align-items-center text-light">
                 <UilEnvelope size="20" className="text-primary me-2" />
                 <a
-                  href="mailto:asifshabbir607@gmail.com"
+                  href="mailto:buttehtesham86@gmail.com"
                   className="text-decoration-none text-light"
                   style={{ transition: "color 0.3s ease" }}
                   onMouseEnter={(e) => (e.target.style.color = "#007bff")}
                   onMouseLeave={(e) => (e.target.style.color = "")}
                 >
-                  asifshabbir607@gmail.com
+                  buttehtesham86@gmail.com
                 </a>
               </div>
             </div>
@@ -214,16 +214,16 @@ const Footer = () => {
               {/* Company Info */}
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 <p className="text-light mb-1 small">
-                  Currently at <span className="text-primary fw-semibold">UPTREE TECHNOLOGIES LTD</span>
+                  Currently at <span className="text-primary fw-semibold">SolutionWIngs.io LTD</span>
                 </p>
-                <p className="text-muted small mb-0">Senior MERN Stack Developer • London</p>
+                <p className="text-muted small mb-0">Senior MERN Stack Developer • Islamabad</p>
               </div>
 
               {/* Social Media Links */}
               <div className="col-md-6 text-center text-md-end">
                 <div className="d-flex justify-content-center justify-content-md-end gap-3">
                   <a
-                    href="https://github.com/asifshabbir"
+                    href="https://github.com/Ehteshambutt"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-light btn-sm rounded-circle p-2"
@@ -245,7 +245,7 @@ const Footer = () => {
                     <UilGithub size="20" />
                   </a>
                   <a
-                    href="https://linkedin.com/in/asifshabbir"
+                    href="https://www.linkedin.com/in/ehteshamali-https://linkedin.com/in/ehteshamali-"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-light btn-sm rounded-circle p-2"
@@ -267,7 +267,7 @@ const Footer = () => {
                     <UilLinkedin size="20" />
                   </a>
                   <a
-                    href="https://twitter.com/asifshabbir"
+                    href="https://twitter.com/EhteshamButt"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-light btn-sm rounded-circle p-2"
@@ -289,7 +289,7 @@ const Footer = () => {
                     <UilTwitter size="20" />
                   </a>
                   <a
-                    href="https://instagram.com/asifshabbir"
+                    href="https://instagram.com/EhteshamButt58"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-light btn-sm rounded-circle p-2"
@@ -311,7 +311,7 @@ const Footer = () => {
                     <UilInstagram size="20" />
                   </a>
                   <a
-                    href="mailto:asifshabbir607@gmail.com"
+                    href="mailto:buttehtesham86@gmail.com"
                     className="btn btn-outline-light btn-sm rounded-circle p-2"
                     style={{
                       width: "40px",
@@ -338,7 +338,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="border-top border-secondary mt-4 pt-4 text-center">
             <p className="text-muted small mb-1">
-              © {new Date().getFullYear()} Asif Shabbir. All rights reserved. Built with React & Next.js
+              © {new Date().getFullYear()}  Ehtesham Ali. All rights reserved. Built with React & Next.js
             </p>
             <p className="text-muted small mb-0">
               Crafted with <span className="text-danger">❤️</span> for amazing web experiences

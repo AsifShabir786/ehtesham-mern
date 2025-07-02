@@ -115,7 +115,7 @@ const Services = () => {
         <i className="fa-sharp fa-solid fa-right-long ma"></i>
       </p>
     </span>
-    <a href="https://wa.me/+447427544122">
+    <a href="https://wa.me/+923189391781">
       <button className="button s-button">Whatsapp</button>
     </a>
     <div

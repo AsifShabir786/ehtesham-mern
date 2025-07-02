@@ -34,20 +34,20 @@ const Intro = () => {
 
 
           <span style={{ color: darkMode ? "white" : "white" }}>Hy! I Am</span>
-     <h3 className="animate-charcter">Asif Shabir</h3>
+     <h3 className="animate-charcter">Ehtesham Ali</h3>
            <span style={{fontWeight:'bold',color:"cyan"}}>
 
 
 
      <span class="title-word title-word-1">Senior Full Stack Developer</span>
     <span class="title-word title-word-2"> with</span>
-    <span class="title-word title-word-3"> 6 years experience</span>
+    <span class="title-word title-word-3"> 4 + years experience</span>
     <span class="title-word title-word-4"> Next.js React js Node</span>
   
 
           </span>
         </div>
-        <a href="https://wa.me/+447427544122" smooth={true} spy={true}>
+        <a href="https://wa.me/+923189391781" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
         </a>
         {/* social icons */}

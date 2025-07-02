@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* left */}
       <div className="n-left">
         
-        <span className="n-name button i-button2">Asif</span>
+        <span className="n-name button i-button2">Ehtesham</span>
         <Toggle />
       </div>
       {/* right */}
@@ -46,8 +46,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a href="https://wa.me/+447427544122" spy={true} smooth={true}>
-  <button className="button n-button d-none ddd d-lg-block">Call : 07427544122</button>
+        <a href="https://wa.me/+923189391781" spy={true} smooth={true}>
+  <button className="button n-button d-none ddd d-lg-block">Call : +923189391781</button>
 </a>
 
       </div>
