@@ -1,0 +1,138 @@
+.t-wrapper{
+    padding:  0 3rem 0 3rem;;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+.t-heading{
+    align-self: flex-start;
+}
+.t-heading>*{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.t-heading span:nth-of-type(2){
+    color: var(--orange);
+}
+
+.t-blur1{
+    left: 38rem;
+    top: 16rem;
+}
+.t-blur2{
+    top: 9rem;
+    left: 0;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 30rem;
+    height: 12rem;
+    /* styles same as work.css */
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+}
+.testimonial>img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.testimonial>span{
+    color: var(--gray);
+}
+
+
+/* slider */
+.t-wrapper .swiper {
+    width: 100%;
+    height: 70%;
+}
+
+.t-wrapper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-wrapper .swiper-pagination-bullet-active{
+    background: var(--orange);
+}
+
+@media screen and (max-width: 480px){
+    .t-wrapper{
+    margin-top:49rem ;    
+        padding: 0;
+    }
+    .testimonial>img{
+        width: 70px;
+        height: 70px;
+    }
+  }
+  @media screen and (min-width: 370px) and (max-width: 450px) {
+    .experience {
+      margin-top: 50rem;
+    }
+  }
+  @media screen and (min-width: 370px) and (max-width: 400px){
+    .t-wrapper{
+        margin-top:49rem ;    
+            padding: 0;
+        }
+  }
+  @media screen and (min-width: 968px) and (max-width: 1024px){
+    .t-wrapper{
+        margin-top:25rem ;    
+            padding: 0;
+        }
+  }
+  @media screen and (min-width: 500px) and (max-width: 600px){
+    .t-wrapper{
+        margin-top:46rem ;    
+            padding: 0;
+        }
+  }
+  .Testo{
+    margin-top: 0rem;
+  }
+/* For viewport widths between 768px and 920px */
+@media screen and (min-width: 708px) and (max-width: 920px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 14rem;
+    }
+}
+@media screen and (min-width: 588px) and (max-width: 708px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 17rem;
+    }
+}
+@media screen and (min-width: 440px) and (max-width: 588px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 88rem;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 440px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 95rem;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+    /* Apply margin-top of 14rem */
+    .Testo{
+        margin-top: 12rem;
+    }
+}
+
