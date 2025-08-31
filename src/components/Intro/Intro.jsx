@@ -42,7 +42,7 @@ const Intro = () => {
      <span class="title-word title-word-1">Senior Full Stack Developer</span>
     <span class="title-word title-word-2"> with</span>
     <span class="title-word title-word-3"> 4 + years experience</span>
-    <span class="title-word title-word-4"> Next.js React js Node</span>
+    <span class="title-word title-word-4"> Next.js React js Node Nest js and Express js</span>
   
 
           </span>
